@@ -1,0 +1,135 @@
+@keyframes gradientShift {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+@keyframes float {
+0%, 100% { transform: translateY(0px); }
+50% { transform: translateY(-6px); }
+}
+@keyframes pulseGlow {
+0%, 100% { opacity: 0.45; }
+50% { opacity: 0.9; }
+}
+
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.container {
+width: 900px;
+height: 260px;
+border-radius: 20px;
+background: linear-gradient(135deg, #090d16 0%, #111827 50%, #0f172a 100%);
+border: 1px solid rgba(255, 255, 255, 0.12);
+position: relative;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 36px 48px;
+color: #f8fafc;
+}
+.orb-1 {
+position: absolute;
+top: -60px;
+right: -40px;
+width: 260px;
+height: 260px;
+border-radius: 50%;
+background: radial-gradient(circle, rgba(236,72,153,0.45) 0%, rgba(236,72,153,0) 70%);
+animation: pulseGlow 5s ease-in-out infinite;
+}
+.orb-2 {
+position: absolute;
+bottom: -80px;
+left: 38%;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background: radial-gradient(circle, rgba(6,182,212,0.35) 0%, rgba(6,182,212,0) 70%);
+animation: pulseGlow 6s ease-in-out infinite reverse;
+}
+.grid-overlay {
+position: absolute;
+inset: 0;
+background-image:
+linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+background-size: 28px 28px;
+}
+.badge {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+width: fit-content;
+padding: 6px 14px;
+border-radius: 999px;
+background: rgba(255, 255, 255, 0.06);
+border: 1px solid rgba(236, 72, 153, 0.35);
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #f472b6;
+margin-bottom: 14px;
+z-index: 2;
+}
+.dot {
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background: #22d3ee;
+box-shadow: 0 0 10px #22d3ee;
+}
+.name {
+font-size: 48px;
+font-weight: 900;
+letter-spacing: -1.5px;
+line-height: 1.05;
+background: linear-gradient(90deg, #ffffff, #38bdf8, #ec4899, #818cf8);
+background-size: 200% auto;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradientShift 6s ease infinite;
+z-index: 2;
+}
+.subtitle {
+margin-top: 10px;
+font-size: 16px;
+font-weight: 500;
+color: #cbd5e1;
+z-index: 2;
+}
+.pills {
+display: flex;
+gap: 10px;
+margin-top: 20px;
+z-index: 2;
+animation: float 4s ease-in-out infinite;
+}
+.pill {
+padding: 6px 12px;
+border-radius: 10px;
+font-size: 12px;
+font-weight: 700;
+background: rgba(15, 23, 42, 0.75);
+border: 1px solid rgba(255, 255, 255, 0.14);
+color: #e2e8f0;
+}
+
+B.Tech CSE (AKTU) • Gorakhpur, India
+
+ISHAN MALL
+
+Android App Developer (Kotlin / Compose) • 3D WebGL Engineer • NASA & ISRO Certified
+
+📱 5+ Play Store Apps
+
+🌐 5+ 3D / Web Platforms
+
+🧩 Chrome Extensions
+
+🛰️ 30+ NASA / ISRO / Google Certs
