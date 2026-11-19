@@ -1,135 +1,89 @@
-@keyframes gradientShift {
-0% { background-position: 0% 50%; }
-50% { background-position: 100% 50%; }
-100% { background-position: 0% 50%; }
-}
-@keyframes float {
-0%, 100% { transform: translateY(0px); }
-50% { transform: translateY(-6px); }
-}
-@keyframes pulseGlow {
-0%, 100% { opacity: 0.45; }
-50% { opacity: 0.9; }
-}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
 
-{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-.container {
-width: 900px;
-height: 260px;
-border-radius: 20px;
-background: linear-gradient(135deg, #090d16 0%, #111827 50%, #0f172a 100%);
-border: 1px solid rgba(255, 255, 255, 0.12);
-position: relative;
-overflow: hidden;
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding: 36px 48px;
-color: #f8fafc;
-}
-.orb-1 {
-position: absolute;
-top: -60px;
-right: -40px;
-width: 260px;
-height: 260px;
-border-radius: 50%;
-background: radial-gradient(circle, rgba(236,72,153,0.45) 0%, rgba(236,72,153,0) 70%);
-animation: pulseGlow 5s ease-in-out infinite;
-}
-.orb-2 {
-position: absolute;
-bottom: -80px;
-left: 38%;
-width: 300px;
-height: 300px;
-border-radius: 50%;
-background: radial-gradient(circle, rgba(6,182,212,0.35) 0%, rgba(6,182,212,0) 70%);
-animation: pulseGlow 6s ease-in-out infinite reverse;
-}
-.grid-overlay {
-position: absolute;
-inset: 0;
-background-image:
-linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-background-size: 28px 28px;
-}
-.badge {
-display: inline-flex;
-align-items: center;
-gap: 8px;
-width: fit-content;
-padding: 6px 14px;
-border-radius: 999px;
-background: rgba(255, 255, 255, 0.06);
-border: 1px solid rgba(236, 72, 153, 0.35);
-font-size: 12px;
-font-weight: 700;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #f472b6;
-margin-bottom: 14px;
-z-index: 2;
-}
-.dot {
-width: 8px;
-height: 8px;
-border-radius: 50%;
-background: #22d3ee;
-box-shadow: 0 0 10px #22d3ee;
-}
-.name {
-font-size: 48px;
-font-weight: 900;
-letter-spacing: -1.5px;
-line-height: 1.05;
-background: linear-gradient(90deg, #ffffff, #38bdf8, #ec4899, #818cf8);
-background-size: 200% auto;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-animation: gradientShift 6s ease infinite;
-z-index: 2;
-}
-.subtitle {
-margin-top: 10px;
-font-size: 16px;
-font-weight: 500;
-color: #cbd5e1;
-z-index: 2;
-}
-.pills {
-display: flex;
-gap: 10px;
-margin-top: 20px;
-z-index: 2;
-animation: float 4s ease-in-out infinite;
-}
-.pill {
-padding: 6px 12px;
-border-radius: 10px;
-font-size: 12px;
-font-weight: 700;
-background: rgba(15, 23, 42, 0.75);
-border: 1px solid rgba(255, 255, 255, 0.14);
-color: #e2e8f0;
-}
+    <!-- Text Gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="35%" stop-color="#38bdf8" />
+      <stop offset="70%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
 
-B.Tech CSE (AKTU) • Gorakhpur, India
+    <!-- Glowing Orbs -->
+    <radialGradient id="orbPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.38" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
 
-ISHAN MALL
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1" />
+    </pattern>
 
-Android App Developer (Kotlin / Compose) • 3D WebGL Engineer • NASA & ISRO Certified
+    <!-- Rounded Clip -->
+    <clipPath id="cardClip">
+      <rect width="900" height="260" rx="20" />
+    </clipPath>
+  </defs>
 
-📱 5+ Play Store Apps
+  <g clip-path="url(#cardClip)">
+    <!-- Base & Grid -->
+    <rect width="900" height="260" fill="url(#bg)" />
+    <rect width="900" height="260" fill="url(#grid)" />
 
-🌐 5+ 3D / Web Platforms
+    <!-- Animated Orbs -->
+    <circle cx="800" cy="40" r="160" fill="url(#orbPink)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="480" cy="240" r="180" fill="url(#orbCyan)">
+      <animate attributeName="opacity" values="1;0.45;1" dur="6s" repeatCount="indefinite" />
+    </circle>
 
-🧩 Chrome Extensions
+    <!-- Card Border -->
+    <rect x="0.5" y="0.5" width="899" height="259" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.14" />
 
-🛰️ 30+ NASA / ISRO / Google Certs
+    <!-- Top Status Badge -->
+    <rect x="48" y="34" width="286" height="28" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ec4899" stroke-opacity="0.45" />
+    <circle cx="66" cy="48" r="4" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="80" y="52" fill="#f472b6" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">
+      B.TECH CSE (AKTU) • GORAKHPUR, INDIA
+    </text>
+
+    <!-- Main Name -->
+    <text x="48" y="120" fill="url(#nameGrad)" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="50" font-weight="900" letter-spacing="-1">
+      ISHAN MALL
+    </text>
+
+    <!-- Subtitle -->
+    <text x="48" y="152" fill="#cbd5e1" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500">
+      Android App Developer (Kotlin / Compose) • 3D WebGL Engineer • NASA & ISRO Certified
+    </text>
+
+    <!-- Stat Pills -->
+    <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">
+      <rect x="48" y="182" width="160" height="32" rx="10" fill="#0f172a" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.15" />
+      <text x="128" y="202" text-anchor="middle">5+ Play Store Apps</text>
+
+      <rect x="220" y="182" width="170" height="32" rx="10" fill="#0f172a" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.15" />
+      <text x="305" y="202" text-anchor="middle">5+ 3D / Web Platforms</text>
+
+      <rect x="402" y="182" width="160" height="32" rx="10" fill="#0f172a" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.15" />
+      <text x="482" y="202" text-anchor="middle">Chrome Extensions</text>
+
+      <rect x="574" y="182" width="225" height="32" rx="10" fill="#0f172a" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.15" />
+      <text x="686" y="202" text-anchor="middle">30+ NASA / ISRO / Google Certs</text>
+    </g>
+  </g>
+</svg>
