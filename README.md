@@ -1,27 +1,3 @@
-&#x20;\<div align="center" width="100%">   \<a href="[https://portfolio-b1973.web.app/](https://portfolio-b1973.web.app/)">     \<img src="./assets/hero.svg" width="100%" alt="Ishan Mall — Android App Developer & 3D WebGL Engineer"/>   \</a> \</div>
-
-\<br/>
-
-\<div align="center">
-
-\<a href="[https://portfolio-b1973.web.app/](https://portfolio-b1973.web.app/)">🌐 3D Portfolio\</a> ·
-\<a href="[https://play.google.com/store/apps/dev?id=4926136840256493221](https://play.google.com/store/apps/dev?id=4926136840256493221)">Google Play Store\</a> ·
-\<a href="[https://www.linkedin.com/in/ishan-mall-4b20ab296/](https://www.linkedin.com/in/ishan-mall-4b20ab296/)">LinkedIn\</a> ·
-\<a href="[https://www.youtube.com/@ishanmall9527](https://www.youtube.com/@ishanmall9527)">YouTube\</a> ·
-\<a href="[https://www.instagram.com/isha.ndisha/](https://www.instagram.com/isha.ndisha/)">Instagram\</a> ·
-\<a href="[https://me.developers.google.com/u/114187295149454370660](https://me.developers.google.com/u/114187295149454370660)">Google Developer\</a> ·
-\<a href="[https://www.credly.com/users/ishan-mall/](https://www.credly.com/users/ishan-mall/)">Credly\</a> ·
-\<a href="mailto\:ishanmall789\@gmail.com">Email\</a>
-
-\</div>
-
-\<br/>
-
-\<div align="center">
-
-\<img src="[https://komarev.com/ghpvc/?username=ishanmall&label=Profile%20Views&color=ec4899&style=flat-square](https://komarev.com/ghpvc/?username=ishanmall\&label=Profile%20Views\&color=ec4899\&style=flat-square)" alt="Profile Views"/> \<img src="[https://img.shields.io/github/followers/ishanmall?label=Followers&color=06b6d4&style=flat-square](https://img.shields.io/github/followers/ishanmall?label=Followers\&color=06b6d4\&style=flat-square)" alt="GitHub Followers"/> \<img src="[https://img.shields.io/github/stars/ishanmall?label=Total%20Stars&color=6366f1&style=flat-square](https://img.shields.io/github/stars/ishanmall?label=Total%20Stars\&color=6366f1\&style=flat-square)" alt="GitHub Stars"/>
-
-\</div>
 
 ---
 
