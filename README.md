@@ -1,3 +1,8 @@
+<div align="center">
+  <a href="https://portfolio-b1973.web.app/">
+    <img src="./assets/hero.svg" width="100%" alt="Ishan Mall — Android Developer & 3D WebGL Engineer" />
+  </a>
+</div>
 # Ishan Mall
 
 **Android App Developer & Software Engineer** · B.Tech CSE (2024–2027), AKTU · Gorakhpur, Uttar Pradesh, India
