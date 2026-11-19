@@ -1,47 +1,41 @@
+
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16" />
-      <stop offset="50%" stop-color="#111827" />
-      <stop offset="100%" stop-color="#0f172a" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="35%" stop-color="#38bdf8" />
-      <stop offset="70%" stop-color="#ec4899" />
-      <stop offset="100%" stop-color="#818cf8" />
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#38bdf8"/>
+      <stop offset="75%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#818cf8"/>
     </linearGradient>
-    <radialGradient id="orbPink" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.30" />
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
-    </radialGradient>
   </defs>
 
-  <rect x="0" y="0" width="900" height="260" rx="20" fill="url(#bg)" />
-  <circle cx="780" cy="60" r="140" fill="url(#orbPink)" />
-  <circle cx="520" cy="210" r="140" fill="url(#orbCyan)" />
-  <rect x="1" y="1" width="898" height="258" rx="19" fill="none" stroke="#ffffff" stroke-opacity="0.14" />
+  <rect width="900" height="260" rx="20" fill="url(#bg)"/>
+  <circle cx="780" cy="60" r="120" fill="#ec4899" opacity="0.10"/>
+  <circle cx="520" cy="210" r="120" fill="#06b6d4" opacity="0.10"/>
 
-  <rect x="48" y="34" width="290" height="28" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ec4899" stroke-opacity="0.5" />
-  <circle cx="66" cy="48" r="4" fill="#22d3ee" />
-  <text x="80" y="52" fill="#f472b6" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" letter-spacing="0.8">B.TECH CSE (AKTU) • GORAKHPUR, INDIA</text>
+  <rect x="1" y="1" width="898" height="258" rx="19" fill="none" stroke="#ffffff" opacity="0.2"/>
 
-  <text x="48" y="120" fill="url(#nameGrad)" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="900" letter-spacing="-1">ISHAN MALL</text>
-  <text x="48" y="152" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500">Android App Developer (Kotlin / Compose) • 3D WebGL Engineer • NASA & ISRO Certified</text>
+  <text x="48" y="52" fill="#f472b6" font-family="Arial,sans-serif" font-size="12" font-weight="bold">B.TECH CSE (AKTU) • GORAKHPUR, INDIA</text>
 
-  <rect x="48" y="182" width="160" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.18" />
-  <text x="128" y="202" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">5+ Play Store Apps</text>
+  <text x="48" y="120" fill="url(#nameGrad)" font-family="Arial,sans-serif" font-size="50" font-weight="900">ISHAN MALL</text>
 
-  <rect x="220" y="182" width="170" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.18" />
-  <text x="305" y="202" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">5+ 3D / Web Platforms</text>
+  <text x="48" y="152" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="16">Android App Developer (Kotlin / Compose) • 3D WebGL Engineer • NASA &amp; ISRO Certified</text>
 
-  <rect x="402" y="182" width="160" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.18" />
-  <text x="482" y="202" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Chrome Extensions</text>
+  <g font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0" text-anchor="middle">
+    <rect x="48" y="182" width="160" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="128" y="202">5+ Play Store Apps</text>
 
-  <rect x="574" y="182" width="225" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.18" />
-  <text x="686" y="202" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">30+ NASA / ISRO / Google Certs</text>
+    <rect x="220" y="182" width="170" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="305" y="202">5+ 3D / Web Platforms</text>
+
+    <rect x="402" y="182" width="160" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="482" y="202">Chrome Extensions</text>
+
+    <rect x="574" y="182" width="225" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="686" y="202">30+ NASA / ISRO / Google Certs</text>
+  </g>
 </svg>
