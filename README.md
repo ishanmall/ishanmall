@@ -1,107 +1,351 @@
-# Hi, I'm Ishan Mall 👋
+# 🌌 ISHAN MALL | Software Engineer & Developer
 
-**Android App Developer & Software Engineer** | **B.Tech CSE (2024–2027), AKTU** | **Gorakhpur, Uttar Pradesh, India**
+\<p align="center">   \<img src="[https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050816,45:123B68,100:00C6FF&text=ISHAN%20MALL&fontColor=FFFFFF&fontSize=55&fontAlignY=38&desc=BUILDING%20BEYOND%20BOUNDARIES&descAlignY=58&descSize=16&animation=fadeIn](https://capsule-render.vercel.app/api?type=waving\&height=220\&color=0:050816,45:123B68,100:00C6FF\&text=ISHAN%20MALL\&fontColor=FFFFFF\&fontSize=55\&fontAlignY=38\&desc=BUILDING%20BEYOND%20BOUNDARIES\&descAlignY=58\&descSize=16\&animation=fadeIn)" width="100%" /> \</p>
 
-I design, build, and publish production-grade native Android applications (**Kotlin, Jetpack Compose, Material 3, MVVM, Hilt, Room, Media3/ExoPlayer**) alongside interactive 3D web platforms (**React, Three.js, React Three Fiber, WebGL2, Firebase**), Chrome Extensions, on-device ML systems, and astrophysics simulations.
+\<p align="center">   \<a href="[https://portfolio-b1973.web.app/](https://portfolio-b1973.web.app/)">\<img src="[https://img.shields.io/badge/PORTFOLIO-00C6FF?style=for-the-badge&logo=googlechrome&logoColor=white](https://img.shields.io/badge/PORTFOLIO-00C6FF?style=for-the-badge\&logo=googlechrome\&logoColor=white)" />\</a>   \<a href="[https://github.com/ishanmall](https://github.com/ishanmall)">\<img src="[https://img.shields.io/badge/GITHUB-111827?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GITHUB-111827?style=for-the-badge\&logo=github\&logoColor=white)" />\</a>   \<a href="[https://www.linkedin.com/in/ishan-mall-4b20ab296/](https://www.linkedin.com/in/ishan-mall-4b20ab296/)">\<img src="[https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)" />\</a>   \<a href="mailto\:ishanmall789\@gmail.com">\<img src="[https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)" />\</a> \</p>
 
-🌐 **3D Portfolio:** [https://portfolio-b1973.web.app/](https://portfolio-b1973.web.app/)  
-📧 **Email:** [ishanmall789@gmail.com](mailto:ishanmall789@gmail.com)
+\<p align="center">   \<img src="[https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=00C6FF&center=true&vCenter=true&width=800&lines=Android+Application+Developer;Full+Stack+%26+3D+Web+Developer;AI%2FML+%26+Computer+Vision+Enthusiast;Astrophysics+%26+Scientific+Computing;Turning+Ideas+Into+Real+Products](https://readme-typing-svg.demolab.com?font=JetBrains+Mono\&weight=600\&size=20\&duration=3000\&pause=1000\&color=00C6FF\&center=true\&vCenter=true\&width=800\&lines=Android+Application+Developer;Full+Stack+%26+3D+Web+Developer;AI%2FML+%26+Computer+Vision+Enthusiast;Astrophysics+%26+Scientific+Computing;Turning+Ideas+Into+Real+Products)." /> \</p>
 
----
-
-## 📱 Published Android Applications (Google Play Store)
-
-Developer Account: [Ishan Mall on Google Play](https://play.google.com/store/apps/dev?id=4926136840256493221)
-
-| App | Description | Link |
-| :--- | :--- | :--- |
-| **GalleryBox** | Multi-domain multimedia platform combining Gallery, Stories, Trash lifecycles, Duo Music Player, Radio, and Video processing tools. | [Google Play](https://play.google.com/store/apps/details?id=com.gallerybox) |
-| **Ananta Brahmanda** | Spiritual and cosmic knowledge platform combining Vedic ephemeris with exact alarms, notifications, and persistent location background services. | [Google Play](https://play.google.com/store/apps/details?id=com.brahmanda) |
-| **ResumeMakers** | Offline Android resume creator utilizing Apache POI for Excel & document processing, local Room DB, and FileProvider export infrastructure. | [Google Play](https://play.google.com/store/apps/details?id=com.ishanmall.resumemaker) |
-| **Ananta Gita** | Multilingual Bhagavad Gita scripture reader covering all 18 Adhyayas with Sanskrit source text translated into Hindi and English. | [Google Play](https://play.google.com/store/apps/details?id=com.anantagita) |
-| **Water Ejector** | Offline Android speaker water-ejection utility built with Jetpack Compose, interactive Lottie animations, and window adjustments. | [Google Play](https://play.google.com/store/apps/details?id=com.waterejector) |
+\<p align="center">
+&#x20; \<b>Android Engineering • Interactive 3D • Artificial Intelligence • Astrophysics\</b>
+\</p>
 
 ---
 
-## 🌐 Websites & 3D Web Platforms
+## 👨‍💻 About Me
 
-| Platform | Category | Description | Link |
-| :--- | :--- | :--- | :--- |
-| **Cosmic Codex** | Web3D / Astrophysics | Extensible 3D astrophysical simulation suite featuring Black Holes, Neutron Stars, and cosmic environments built on React Three Fiber & WebGL. | [Live Site](https://cosmic-codex-14559.web.app/) |
-| **Premium Portfolio 3D** | Web3D / Portfolio | Interactive 3D portfolio featuring a scroll-driven racing-car rig, dynamic particles, physics velocity, and English/Hindi voice narration. | [Live Site](https://portfolio-b1973.web.app/) |
-| **Mandir Dharshan** | Web / Catalogue | Large-scale visual temple knowledge catalogue driven by structured local data with custom location search and dark mode. | [Live Site](https://mandir-dharshan.web.app/) |
-| **Who Is God?** | Web / Philosophy | Interactive spiritual knowledge platform exploring divine philosophies, Vedic perspectives, and Hindu philosophy. | [Live Site](https://who-is-god.web.app/) |
-| **Gaystiny** | Web / Entertainment | Interactive prank questionnaire web app with animated transitions, dynamic form states, and playful fictional results. | [Live Site](https://gaystiny-a5016.web.app/) |
+Hi, I'm **Ishan Mall**, an Android App Developer and Software Engineer pursuing B.Tech in Computer Science and Engineering (2024–2027) at AKTU, Uttar Pradesh, India.
 
----
+I build and publish production-grade Android applications, interactive 3D web experiences, browser extensions, AI-powered systems, and scientific simulations.
 
-## 🧩 Chrome Extensions (Manifest V3)
+My engineering interests combine software architecture, graphics programming, artificial intelligence, and scientific computing.
 
-* **[FacebookSwift](https://github.com/ishanmall/FacebookSwift)** — Manifest V3 Chrome Extension for Facebook.
-* **[WhatsAppSwift](https://github.com/ishanmall/WhatsAppSwift)** — Manifest V3 Chrome Extension for WhatsApp.
+- 📱 Native Android application development
+- 🌐 Interactive 3D web applications and WebGL experiences
+- 🧠 AI, Machine Learning and Computer Vision
+- 🛰️ Earth Observation, GIS and Remote Sensing
+- 🌌 Astrophysics and computational simulations
+- 🚀 Product development, deployment and optimization
 
----
-
-## 🛠️ In The Lab (Active Projects)
-
-* **[Ananta Sanatan](https://github.com/ishanmall/AnantaSanatan)** — Digital Sanatan knowledge Android app built with Kotlin, Jetpack Compose, Cloud Firestore, Room, and Google Credential Manager.
-* **[Portfolio Website](https://github.com/ishanmall/Portfolio-Website)** — Full-stack 3D WebGL portfolio source code using React, TypeScript, Three.js, GSAP, and Firebase.
+**My philosophy:** Build meaningful technology, explore difficult problems, and turn ambitious ideas into working products.
 
 ---
 
-## 🚀 Technology Stack
+# 📱 Published Android Applications
 
-* **Android & Mobile:** Kotlin, Java, Jetpack Compose, Material 3, MVVM, Clean Architecture, Hilt, Room ORM, SQLite, DataStore, MediaStore API, Storage Access Framework, Media3, ExoPlayer, WorkManager, Coroutines, StateFlow, Apache POI, Google Play Billing, AdMob
-* **Web & 3D Graphics:** React, JavaScript, TypeScript, Vite, Tailwind CSS, Three.js, React Three Fiber, Drei, WebGL / WebGL2, GLSL Shaders, GSAP, Framer Motion, Lottie
-* **Cloud & Backend:** Firebase (Authentication, Cloud Firestore, Realtime Database, Remote Config, Analytics, Hosting), OkHttp, REST APIs
-* **AI, ML & Computer Vision:** TensorFlow Lite (LiteRT), MediaPipe, Google ML Kit (Face Detection, Text Recognition, Barcode Scanning, Pose Detection), OpenCV
-* **Scientific Computing & Remote Sensing:** Astrophysics Modeling, Stellar & Compact-Object Simulations, SunCalc, NASA ARSET, ISRO/IIRS, GIS, GNSS, Hyperspectral Data
+\<p align="center">
+&#x20; \<img src="[https://img.shields.io/badge/GOOGLE_PLAY-PUBLISHED-34A853?style=for-the-badge&logo=googleplay&logoColor=white](https://img.shields.io/badge/GOOGLE_PLAY-PUBLISHED-34A853?style=for-the-badge\&logo=googleplay\&logoColor=white)" />
+\</p>
+
+### 01. GalleryBox
+
+**Multimedia Management Platform**
+
+A multi-domain multimedia application combining gallery management, stories, trash lifecycles, music playback, radio, and video processing.
+
+- Gallery and media management
+- Stories and trash lifecycle
+- Duo Music Player
+- Radio and video processing tools
+
+
+
+### 02. Ananta Brahmanda
+
+**Spiritual & Cosmic Knowledge Platform**
+
+A spiritual and cosmic knowledge application combining Vedic ephemeris calculations with Android scheduling and background services.
+
+- Vedic astronomical calculations
+- Exact alarms and notifications
+- Persistent location background services
+
+
+
+### 03. ResumeMakers
+
+**Offline Resume Creation**
+
+An offline resume-generation application with document processing and local database infrastructure.
+
+- Apache POI document processing
+- Room database
+- FileProvider-based export
+- Offline-first architecture
+
+
+
+### 04. Ananta Gita
+
+**Bhagavad Gita Knowledge Platform**
+
+A multilingual scripture-reading application covering all 18 Adhyayas of the Bhagavad Gita.
+
+- Sanskrit source verses
+- Hindi and English translations
+- Chapter-wise scripture navigation
+
+
+
+### 05. Water Ejector
+
+**Android Audio Utility**
+
+An offline speaker water-ejection utility.
+
+- Jetpack Compose interface
+- Interactive Lottie animations
+- Audio-frequency-based speaker utility
+- Window and UI adjustments
+
+
+
+\<p align="center">
+&#x20; \<a href="[https://play.google.com/store/apps/dev?id=4926136840256493221](https://play.google.com/store/apps/dev?id=4926136840256493221)">
+&#x20;   \<img src="[https://img.shields.io/badge/EXPLORE_ALL_APPLICATIONS-Google_Play-00C853?style=for-the-badge&logo=googleplay&logoColor=white](https://img.shields.io/badge/EXPLORE_ALL_APPLICATIONS-Google_Play-00C853?style=for-the-badge\&logo=googleplay\&logoColor=white)" />
+&#x20; \</a>
+\</p>
 
 ---
 
-## 🛰️ NASA Certifications & Training
+# 🌐 Websites & Interactive 3D Platforms
 
-1. **Fundamentals of Remote Sensing** — Earth Observations, Remote Sensing principles & data applications (Modules 1–4)
-2. **Fundamentals of Remote Sensing for Air Quality Application** — Air quality measurement & remote sensing applications (Modules 1–4)
-3. **Hyperspectral Data for Land and Coastal Systems** — Land management, coastal & ocean systems (Modules 1–3)
-4. **Sustainable Earth Science Applications** — Earth Observations pathway, project management & societal impact (Modules 1–3)
-5. **NASA Open Science 101** — Open science principles, reproducibility, data sharing & open research workflows
-6. **NASA Open Science Essentials** — Collaboration, transparency & open research practices
-7. **Introduction to Satellite Remote Sensing for Air Quality Applications (ARSET)** — NASA Aerosol & Trace Gas products (Sessions 1–5)
+### 🌌 Cosmic Codex
+
+**Web3D | Astrophysics | Scientific Visualization**
+
+An extensible astrophysical simulation suite featuring black holes, neutron stars, and cosmic environments.
+
+**Technologies:** React, Three.js, React Three Fiber, WebGL.
+
+[🚀 Explore Cosmic Codex](https://cosmic-codex-14559.web.app/)
+
+### 🏎️ Premium Portfolio 3D
+
+**Web3D | Interactive Portfolio**
+
+An immersive 3D portfolio featuring a scroll-driven racing-car rig, dynamic particles, physics velocity, and bilingual voice narration.
+
+**Technologies:** React, Three.js, GSAP, WebGL.
+
+[🚀 Explore Portfolio](https://portfolio-b1973.web.app/)
+
+### 🛕 Mandir Dharshan
+
+**Web | Cultural Knowledge Catalogue**
+
+A visual temple knowledge catalogue featuring structured local data, custom location search, and dark mode.
+
+[🚀 Explore Mandir Dharshan](https://mandir-dharshan.web.app/)
+
+### 🕉️ Who Is God?
+
+**Web | Philosophy | Spiritual Knowledge**
+
+An interactive knowledge platform exploring divine philosophies, Vedic perspectives, and Hindu philosophy.
+
+[🚀 Explore Who Is God?](https://who-is-god.web.app/)
+
+### 🎭 Gaystiny
+
+**Web | Entertainment | Interactive Experience**
+
+An interactive prank questionnaire application with animated transitions, dynamic form states, and fictional results.
+
+[🚀 Explore Gaystiny](https://gaystiny-a5016.web.app/)
 
 ---
 
-## 🌍 ISRO / IIRS Certifications & Training
+# 🧩 Chrome Extensions | Manifest V3
 
-1. **Aerosols: Measurement, Retrieval and Impacts** — Physics, optics, WRF-Chem, CMAQ, GEOS-Chem, AERONET, AI/ML retrieval & iAOD visualization
-2. **AI/ML for Geodata Analysis** — GIS analytics, Digital Image Processing, CNN, RNN, Foundation Models, GeoAI, Generative AI, LLMs & NLP for geodata
-3. **Climate Change Induced Disasters** — Geospatial applications for cryospheric hazards, forest fires, heatwaves, droughts & hydrological hazards
-4. **Earth Observations & Tropical Cyclone Monitoring and Forecasting** — Multi-sensor satellites, NWP models, data assimilation & AI/ML forecasting
-5. **AI/ML for Hydroinformatics** — Water resources, snow & glacier studies, water quality mapping, rainfall-runoff modelling & flood forecasting
-6. **NISAR Applications** — SAR fundamentals, NISAR mission & products, polarimetric & interferometric analysis
-7. **Science Discussion (Vigyan Charcha)** — Space technology applications in disasters, agriculture, environment, water resources, geology & urban regions
-8. **Basics of Remote Sensing, GIS and GNSS** — Digital image analysis, GNSS, GIS, geocomputation, geo-web services & natural resource management
+| Project                                                     | Description                   |
+| ----------------------------------------------------------- | ----------------------------- |
+| [FacebookSwift](https://github.com/ishanmall/FacebookSwift) | Chrome extension for Facebook |
+| [WhatsAppSwift](https://github.com/ishanmall/WhatsAppSwift) | Chrome extension for WhatsApp |
 
 ---
 
-## 🏆 Google Developer, Android, AI & Other Credentials
+# 🛠️ Active Development
 
-* **Google Developer & Google Cloud (24 Badges):** Kotlin Fundamentals, Android Studio, Jetpack Compose, Adaptive Layouts, Navigation, Architecture Components, Room, DataStore, WorkManager, SQL, Networking, Google Cloud Computing ([View Profile](https://me.developers.google.com/u/114187295149454370660))
-* **Android App Development & Android App Development with AI:** Native Android, Kotlin, Jetpack Compose, Firebase, Google Play Store publishing & AI-assisted development
-* **YUVA AI for ALL** — NASSCOM FutureSkills Prime
-* **YUVA Artificial Intelligence (AI)** — TCS iON
-* **Operating Systems Basics** — Cisco Networking Academy ([Credly Profile](https://www.credly.com/users/ishan-mall/))
-* **Competitions & Recognition:** TATA Crucible Campus Quiz 2025, Puzzler's Pursuit (IIM Rohtak), Visit Bharat Online Pledge, VBYLD 2026
+### 🕉️ Ananta Sanatan
+
+Digital Sanatan knowledge Android application.
+
+- Kotlin and Jetpack Compose
+- Cloud Firestore and Room
+- Google Credential Manager
+
+[View Repository](https://github.com/ishanmall/AnantaSanatan)
+
+### 🌐 Portfolio Website
+
+Full-stack 3D WebGL portfolio source code.
+
+- React and TypeScript
+- Three.js
+- GSAP
+- Firebase
+
+[View Repository](https://github.com/ishanmall/Portfolio-Website)
 
 ---
 
-## 🔗 Connect With Me
+# ⚙️ Technology Arsenal
 
-* **Portfolio:** [https://portfolio-b1973.web.app/](https://portfolio-b1973.web.app/)
-* **Google Play Store:** [Developer Page](https://play.google.com/store/apps/dev?id=4926136840256493221)
-* **LinkedIn:** [linkedin.com/in/ishan-mall-4b20ab296](https://www.linkedin.com/in/ishan-mall-4b20ab296/)
-* **GitHub:** [github.com/ishanmall](https://github.com/ishanmall)
-* **YouTube:** [youtube.com/@ishanmall9527](https://www.youtube.com/@ishanmall9527)
-* **Instagram:** [instagram.com/isha.ndisha](https://www.instagram.com/isha.ndisha/)
-* **Google Developer Profile:** [me.developers.google.com/u/114187295149454370660](https://me.developers.google.com/u/114187295149454370660)
-* **Credly:** [credly.com/users/ishan-mall](https://www.credly.com/users/ishan-mall/)
+### 📱 Android & Mobile Engineering
+
+\<p>
+\<img src="[https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge\&logo=jetpackcompose\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/Material_3-6750A4?style=for-the-badge&logo=materialdesign&logoColor=white](https://img.shields.io/badge/Material_3-6750A4?style=for-the-badge\&logo=materialdesign\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge\&logo=androidstudio\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/Room-4285F4?style=for-the-badge](https://img.shields.io/badge/Room-4285F4?style=for-the-badge)"/>
+\<img src="[https://img.shields.io/badge/Hilt-4285F4?style=for-the-badge](https://img.shields.io/badge/Hilt-4285F4?style=for-the-badge)"/>
+\<img src="[https://img.shields.io/badge/ExoPlayer-00A86B?style=for-the-badge](https://img.shields.io/badge/ExoPlayer-00A86B?style=for-the-badge)"/>
+\</p>
+
+MVVM • Clean Architecture • Hilt • Room ORM • SQLite • DataStore • MediaStore • SAF • Media3 • ExoPlayer • WorkManager • Coroutines • StateFlow • Apache POI • Google Play Billing • AdMob
+
+### 🌐 Web & 3D Graphics
+
+\<p>
+\<img src="[https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)"/>
+\<img src="[https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)"/>
+\<img src="[https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=threedotjs&logoColor=white](https://img.shields.io/badge/Three.js-black?style=for-the-badge\&logo=threedotjs\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/WebGL-990000?style=for-the-badge](https://img.shields.io/badge/WebGL-990000?style=for-the-badge)"/>
+\<img src="[https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)"/>
+\</p>
+
+React Three Fiber • Drei • WebGL2 • GLSL Shaders • GSAP • Framer Motion • Lottie
+
+### ☁️ Cloud & Backend
+
+\<p>
+\<img src="[https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)"/>
+\<img src="[https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)"/>
+\<img src="[https://img.shields.io/badge/REST_API-009688?style=for-the-badge](https://img.shields.io/badge/REST_API-009688?style=for-the-badge)"/>
+\<img src="[https://img.shields.io/badge/OkHttp-3C873A?style=for-the-badge](https://img.shields.io/badge/OkHttp-3C873A?style=for-the-badge)"/>
+\</p>
+
+Firebase Authentication • Cloud Firestore • Realtime Database • Remote Config • Analytics • Hosting • REST APIs
+
+### 🧠 Artificial Intelligence & Computer Vision
+
+\<p>
+\<img src="[https://img.shields.io/badge/TensorFlow_Lite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white](https://img.shields.io/badge/TensorFlow_Lite-FF6F00?style=for-the-badge\&logo=tensorflow\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge)"/>
+\<img src="[https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge\&logo=opencv\&logoColor=white)"/>
+\<img src="[https://img.shields.io/badge/Google_ML_Kit-4285F4?style=for-the-badge](https://img.shields.io/badge/Google_ML_Kit-4285F4?style=for-the-badge)"/>
+\</p>
+
+TensorFlow Lite (LiteRT) • MediaPipe • ML Kit • Face Detection • Text Recognition • Barcode Scanning • Pose Detection • OpenCV
+
+### 🛰️ Scientific Computing & Remote Sensing
+
+Astrophysics Modeling • Stellar & Compact-Object Simulations • SunCalc • NASA ARSET • ISRO/IIRS • GIS • GNSS • Hyperspectral Data
+
+---
+
+# 🛰️ NASA Certifications & Training
+
+| #  | Certification / Training                                                      |
+| -- | ----------------------------------------------------------------------------- |
+| 01 | Fundamentals of Remote Sensing                                                |
+| 02 | Fundamentals of Remote Sensing for Air Quality Application                    |
+| 03 | Hyperspectral Data for Land and Coastal Systems                               |
+| 04 | Sustainable Earth Science Applications                                        |
+| 05 | NASA Open Science 101                                                         |
+| 06 | NASA Open Science Essentials                                                  |
+| 07 | Introduction to Satellite Remote Sensing for Air Quality Applications (ARSET) |
+
+Areas: Earth Observation, Remote Sensing, Aerosol & Trace Gas Products, Hyperspectral Applications, Open Science, Data Sharing and Scientific Research.
+
+---
+
+# 🌍 ISRO / IIRS Certifications & Training
+
+| #  | Certification / Training                                         |
+| -- | ---------------------------------------------------------------- |
+| 01 | Aerosols: Measurement, Retrieval and Impacts                     |
+| 02 | AI/ML for Geodata Analysis                                       |
+| 03 | Climate Change Induced Disasters                                 |
+| 04 | Earth Observations & Tropical Cyclone Monitoring and Forecasting |
+| 05 | AI/ML for Hydroinformatics                                       |
+| 06 | NISAR Applications                                               |
+| 07 | Science Discussion (Vigyan Charcha)                              |
+| 08 | Basics of Remote Sensing, GIS and GNSS                           |
+
+Areas: WRF-Chem, CMAQ, GEOS-Chem, AERONET, CNN, RNN, GeoAI, SAR, NISAR, GIS, GNSS, Hydrological Modeling, Disaster Monitoring and Geospatial Analytics.
+
+---
+
+# 🏆 Google Developer, AI & Other Credentials
+
+- **Google Developer & Google Cloud:** 24 Badges covering Kotlin Fundamentals, Android Studio, Jetpack Compose, Adaptive Layouts, Navigation, Architecture Components, Room, DataStore, WorkManager, SQL, Networking and Cloud Computing.
+- **Android App Development & Android App Development with AI:** Native Android, Kotlin, Jetpack Compose, Firebase and Google Play publishing.
+- **YUVA AI for ALL** — NASSCOM FutureSkills Prime.
+- **YUVA Artificial Intelligence (AI)** — TCS iON.
+- **Operating Systems Basics** — Cisco Networking Academy.
+
+### Competitions & Recognition
+
+TATA Crucible Campus Quiz 2025 • Puzzler's Pursuit (IIM Rohtak) • Visit Bharat Online Pledge • VBYLD 2026.
+
+---
+
+# 📊 GitHub Analytics
+
+\<p align="center">
+&#x20; \<img height="170" src="[https://github-readme-stats.vercel.app/api?username=ishanmall&show_icons=true&theme=tokyonight&hide_border=true&count_private=true](https://github-readme-stats.vercel.app/api?username=ishanmall\&show_icons=true\&theme=tokyonight\&hide_border=true\&count_private=true)" />
+&#x20; \<img height="170" src="[https://github-readme-stats.vercel.app/api/top-langs/?username=ishanmall&layout=compact&theme=tokyonight&hide_border=true](https://github-readme-stats.vercel.app/api/top-langs/?username=ishanmall\&layout=compact\&theme=tokyonight\&hide_border=true)" />
+\</p>
+
+\<p align="center">
+&#x20; \<img width="95%" src="[https://github-readme-streak-stats.herokuapp.com/?user=ishanmall&theme=tokyonight&hide_border=true](https://github-readme-streak-stats.herokuapp.com/?user=ishanmall\&theme=tokyonight\&hide_border=true)" />
+\</p>
+
+\<p align="center">
+&#x20; \<img src="[https://github-profile-trophy.vercel.app/?username=ishanmall&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=6](https://github-profile-trophy.vercel.app/?username=ishanmall\&theme=algolia\&no-frame=true\&no-bg=true\&margin-w=8\&column=6)" width="95%" />
+\</p>
+
+---
+
+# 🌐 Connect With Me
+
+\<p align="center">
+&#x20; \<a href="[https://portfolio-b1973.web.app/](https://portfolio-b1973.web.app/)">\<img src="[https://img.shields.io/badge/Portfolio-00C6FF?style=for-the-badge&logo=googlechrome&logoColor=white](https://img.shields.io/badge/Portfolio-00C6FF?style=for-the-badge\&logo=googlechrome\&logoColor=white)"/>\</a>
+&#x20; \<a href="[https://play.google.com/store/apps/dev?id=4926136840256493221](https://play.google.com/store/apps/dev?id=4926136840256493221)">\<img src="[https://img.shields.io/badge/Google_Play-34A853?style=for-the-badge&logo=googleplay&logoColor=white](https://img.shields.io/badge/Google_Play-34A853?style=for-the-badge\&logo=googleplay\&logoColor=white)"/>\</a>
+&#x20; \<a href="[https://github.com/ishanmall](https://github.com/ishanmall)">\<img src="[https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)"/>\</a>
+&#x20; \<a href="[https://www.linkedin.com/in/ishan-mall-4b20ab296/](https://www.linkedin.com/in/ishan-mall-4b20ab296/)">\<img src="[https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)"/>\</a>
+\</p>
+
+\<p align="center">
+&#x20; \<a href="mailto\:ishanmall789\@gmail.com">\<img src="[https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/Email-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)"/>\</a>
+&#x20; \<a href="[https://www.youtube.com/@ishanmall9527](https://www.youtube.com/@ishanmall9527)">\<img src="[https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge\&logo=youtube\&logoColor=white)"/>\</a>
+&#x20; \<a href="[https://www.instagram.com/isha.ndisha/](https://www.instagram.com/isha.ndisha/)">\<img src="[https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge\&logo=instagram\&logoColor=white)"/>\</a>
+\</p>
+
+\<p align="center">
+&#x20; \<a href="[https://me.developers.google.com/u/114187295149454370660](https://me.developers.google.com/u/114187295149454370660)">Google Developer Profile\</a> •
+&#x20; \<a href="[https://www.credly.com/users/ishan-mall/](https://www.credly.com/users/ishan-mall/)">Credly\</a>
+\</p>
+
+\<p align="center">
+&#x20; 📍 Gorakhpur, Uttar Pradesh, India
+\</p>
+
+---
+
+\<p align="center">
+&#x20; \<img src="[https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:123B68,100:050816&height=120&section=footer](https://capsule-render.vercel.app/api?type=waving\&color=0:00C6FF,50:123B68,100:050816\&height=120\&section=footer)" width="100%" />
+\</p>
+
+\<p align="center">
+&#x20; \<b>Engineering the future, one idea at a time.\</b>
+&#x20; \<br/>
+&#x20; \<i>Designed & Developed by Ishan Mall\</i>
+\</p>
