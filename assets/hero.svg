@@ -1,86 +1,124 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none">
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080D1A"/>
-      <stop offset=".52" stop-color="#101B32"/>
-      <stop offset="1" stop-color="#071827"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset=".55" stop-color="#11112A"/>
+      <stop offset="1" stop-color="#071B2C"/>
     </linearGradient>
-    <linearGradient id="accent" x1="180" y1="90" x2="850" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00E5FF"/>
-      <stop offset=".52" stop-color="#7C83FF"/>
-      <stop offset="1" stop-color="#D16BFF"/>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF0A6"/>
+      <stop offset=".45" stop-color="#FFB52E"/>
+      <stop offset="1" stop-color="#C76A13"/>
     </linearGradient>
-    <linearGradient id="textGradient" x1="110" y1="120" x2="650" y2="190" gradientUnits="userSpaceOnUse">
+    <linearGradient id="heading" x1="90" y1="100" x2="650" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#9DEBFF"/>
+      <stop offset=".65" stop-color="#FFE7AE"/>
+      <stop offset="1" stop-color="#D9A34C"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(360 0 0 220 920 90)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#176BCE" stop-opacity=".34"/>
-      <stop offset="1" stop-color="#176BCE" stop-opacity="0"/>
+    <radialGradient id="glow">
+      <stop stop-color="#FFB52E" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#FF8A00" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="24"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="35"/>
     </filter>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" stroke="#8BB9E8" stroke-opacity=".07"/>
+    <filter id="goldGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <pattern id="stars" width="90" height="90" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="18" r="1" fill="#FFE4A1" opacity=".55"/>
+      <circle cx="64" cy="54" r="1.2" fill="#B8DFFF" opacity=".4"/>
+      <circle cx="40" cy="82" r=".8" fill="#FFFFFF" opacity=".5"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="360" rx="26" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
-  <rect width="1200" height="360" rx="26" fill="url(#glow)"/>
+  <!-- Background -->
+  <rect width="1200" height="380" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="28" fill="url(#stars)"/>
+  <ellipse cx="950" cy="180" rx="260" ry="190" fill="url(#glow)" filter="url(#blur)"/>
 
-  <ellipse cx="930" cy="170" rx="210" ry="120" fill="#286BFF" fill-opacity=".14" filter="url(#blur)"/>
+  <!-- Cosmic decorative lines -->
+  <path d="M750 0L1100 380M850 0L1200 350" stroke="#D7A34B" stroke-opacity=".12"/>
+  <path d="M0 340C260 300 430 390 700 330" stroke="url(#gold)" stroke-opacity=".3"/>
 
-  <g opacity=".8" stroke="url(#accent)" stroke-width="1.2">
-    <path d="M760 0L1060 360" opacity=".22"/>
-    <path d="M890 0L1190 360" opacity=".16"/>
-    <path d="M680 40H1200" opacity=".15"/>
-    <path d="M700 300H1200" opacity=".15"/>
+  <!-- Mantras -->
+  <g font-family="Noto Serif Devanagari, Mangal, serif" font-size="18" font-weight="bold" fill="url(#gold)" text-anchor="middle">
+    <text x="330" y="75">॥ ॐ नमः शिवाय ॥</text>
+    <text x="600" y="75">॥ जय माता दी ॥</text>
+    <text x="870" y="75">॥ जय श्री राम ॥</text>
   </g>
 
-  <g fill="#A9EFFF">
-    <circle cx="820" cy="65" r="2"/>
-    <circle cx="1100" cy="95" r="2"/>
-    <circle cx="1020" cy="285" r="2"/>
-    <circle cx="745" cy="250" r="1.5"/>
-    <circle cx="1150" cy="220" r="1.5"/>
+  <g stroke="#DCA64F" stroke-width="1" opacity=".55">
+    <path d="M100 70H180"/>
+    <path d="M1020 70H1100"/>
   </g>
 
-  <g transform="translate(820 68)">
-    <circle cx="150" cy="112" r="104" stroke="url(#accent)" stroke-opacity=".4" stroke-width="1.5"/>
-    <circle cx="150" cy="112" r="78" stroke="#70DFFF" stroke-opacity=".3" stroke-dasharray="5 8"/>
-    <circle cx="150" cy="112" r="48" stroke="#A78BFA" stroke-opacity=".55"/>
-    <path d="M150 8C207 8 254 55 254 112" stroke="#00E5FF" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M150 216C93 216 46 169 46 112" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round"/>
-    <circle cx="150" cy="112" r="31" fill="#0D1D36" stroke="url(#accent)" stroke-width="2"/>
-    <path d="M139 96L120 112L139 128M161 96L180 112L161 128M155 88L145 136" stroke="#D7F7FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="150" cy="8" r="5" fill="#00E5FF"/>
-    <circle cx="254" cy="112" r="5" fill="#A78BFA"/>
-    <circle cx="150" cy="216" r="5" fill="#00E5FF"/>
-    <circle cx="46" cy="112" r="5" fill="#A78BFA"/>
-  </g>
-
+  <!-- Name -->
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="76" y="75" fill="#8FEAFF" font-size="14" font-weight="700" letter-spacing="4">DEVELOPER • CREATOR • BUILDER</text>
-    <text x="72" y="153" fill="url(#textGradient)" font-size="62" font-weight="800" letter-spacing="-2">ISHAN MALL</text>
-    <text x="76" y="193" fill="#C3D5EA" font-size="21" font-weight="500">Android App Developer &amp; Software Engineer</text>
-    <text x="76" y="229" fill="#91A8C5" font-size="15">Building meaningful apps, immersive websites and digital experiences.</text>
+    <text x="82" y="165" fill="url(#heading)" font-size="68" font-weight="800" letter-spacing="-3">ISHAN MALL</text>
+    <path d="M85 185C230 205 410 200 590 180" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="82" y="231" fill="#E0E8FF" font-size="21" font-weight="500">Android Developer  /  Software Engineer</text>
+    <text x="82" y="267" fill="#C5B28F" font-size="15">Turning imagination into meaningful digital experiences.</text>
   </g>
 
-  <g transform="translate(76 267)" font-family="Segoe UI, Arial, sans-serif">
-    <rect width="144" height="35" rx="17.5" fill="#102A43" stroke="#1C789A"/>
-    <text x="72" y="22" fill="#9BEAFF" font-size="12" text-anchor="middle" font-weight="700">ANDROID • KOTLIN</text>
-    <rect x="156" width="118" height="35" rx="17.5" fill="#1B2444" stroke="#555DB0"/>
-    <text x="215" y="22" fill="#C7C9FF" font-size="12" text-anchor="middle" font-weight="700">REACT • WEB</text>
-    <rect x="286" width="125" height="35" rx="17.5" fill="#29203D" stroke="#8054A5"/>
-    <text x="348" y="22" fill="#E1C2FF" font-size="12" text-anchor="middle" font-weight="700">UI • UX • 3D</text>
+  <!-- Mantra panel -->
+  <g transform="translate(82 298)">
+    <rect width="500" height="42" rx="12" fill="#251A14" fill-opacity=".65" stroke="#D79B3B" stroke-opacity=".55"/>
+    <path d="M166 9V33M333 9V33" stroke="#D79B3B" stroke-opacity=".45"/>
+    <g font-family="Noto Serif Devanagari, Mangal, serif" font-size="16" font-weight="bold" fill="#FFD68A" text-anchor="middle">
+      <text x="83" y="27">ॐ नमः शिवाय</text>
+      <text x="250" y="27">जय माता दी</text>
+      <text x="416" y="27">जय श्री राम</text>
+    </g>
   </g>
 
-  <text x="1120" y="330" text-anchor="end" fill="#617C9B" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="2">BUILD • CREATE • INNOVATE</text>
+  <!-- Sacred Om mandala -->
+  <g transform="translate(925 174)">
+    <circle r="132" fill="#FFB52E" fill-opacity=".035"/>
+    <circle r="119" stroke="url(#gold)" stroke-width="1.5" opacity=".65"/>
+    <circle r="108" stroke="#E7B75D" stroke-dasharray="3 7" opacity=".65"/>
+    <circle r="94" stroke="url(#gold)" stroke-width="2" opacity=".65"/>
 
-  <g opacity=".5">
-    <path d="M0 345H1200" stroke="url(#accent)" stroke-width="2"/>
+    <!-- Mandala petals -->
+    <g stroke="url(#gold)" stroke-width="1.5" opacity=".8">
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(30)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(60)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(90)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(120)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(150)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(180)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(210)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(240)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(270)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(300)"/>
+      <path d="M0 -119Q22 -90 0 -68Q-22 -90 0 -119Z" transform="rotate(330)"/>
+    </g>
+
+    <circle r="75" fill="#17162A" stroke="url(#gold)" stroke-width="2"/>
+    <circle r="65" stroke="#FFD27A" stroke-opacity=".5" stroke-dasharray="2 5"/>
+
+    <!-- Om symbol -->
+    <text x="0" y="25" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, serif" font-size="76" font-weight="bold" fill="url(#gold)">ॐ</text>
+
+    <!-- Sacred rays -->
+    <g stroke="#FFCB69" stroke-width="2" stroke-linecap="round">
+      <path d="M0 -144V-132M0 132V144M144 0H132M-132 0H-144"/>
+      <path d="M102 -102L94 -94M-102 -102L-94 -94M102 102L94 94M-102 102L-94 94"/>
+    </g>
   </g>
+
+  <!-- Trishul ornament -->
+  <g transform="translate(600 352)" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 17V-13"/>
+    <path d="M0 -13C-5 -20 -9 -29 -7 -39C-1 -34 0 -27 0 -20"/>
+    <path d="M0 -13C5 -20 9 -29 7 -39C1 -34 0 -27 0 -20"/>
+    <path d="M0 -13C-13 -18 -18 -28 -17 -39C-7 -35 -3 -28 0 -18"/>
+    <path d="M0 -13C13 -18 18 -28 17 -39C7 -35 3 -28 0 -18"/>
+  </g>
+  <path d="M430 339H565M635 339H770" stroke="url(#gold)" stroke-opacity=".7" stroke-width="1.5"/>
+
+  <!-- Border -->
+  <rect x=".75" y=".75" width="1198.5" height="378.5" rx="27.25" stroke="url(#gold)" stroke-opacity=".5" stroke-width="1.5"/>
 </svg>
