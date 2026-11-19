@@ -1,41 +1,86 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#090d16"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080D1A"/>
+      <stop offset=".52" stop-color="#101B32"/>
+      <stop offset="1" stop-color="#071827"/>
     </linearGradient>
-    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="40%" stop-color="#38bdf8"/>
-      <stop offset="75%" stop-color="#ec4899"/>
-      <stop offset="100%" stop-color="#818cf8"/>
+    <linearGradient id="accent" x1="180" y1="90" x2="850" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset=".52" stop-color="#7C83FF"/>
+      <stop offset="1" stop-color="#D16BFF"/>
     </linearGradient>
+    <linearGradient id="textGradient" x1="110" y1="120" x2="650" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#9DEBFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(360 0 0 220 920 90)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#176BCE" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#176BCE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#8BB9E8" stroke-opacity=".07"/>
+    </pattern>
   </defs>
 
-  <rect width="900" height="260" rx="20" fill="url(#bg)"/>
-  <circle cx="780" cy="60" r="120" fill="#ec4899" opacity="0.10"/>
-  <circle cx="520" cy="210" r="120" fill="#06b6d4" opacity="0.10"/>
+  <rect width="1200" height="360" rx="26" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#glow)"/>
 
-  <rect x="1" y="1" width="898" height="258" rx="19" fill="none" stroke="#ffffff" opacity="0.2"/>
+  <ellipse cx="930" cy="170" rx="210" ry="120" fill="#286BFF" fill-opacity=".14" filter="url(#blur)"/>
 
-  <text x="48" y="52" fill="#f472b6" font-family="Arial,sans-serif" font-size="12" font-weight="bold">B.TECH CSE (AKTU) • GORAKHPUR, INDIA</text>
+  <g opacity=".8" stroke="url(#accent)" stroke-width="1.2">
+    <path d="M760 0L1060 360" opacity=".22"/>
+    <path d="M890 0L1190 360" opacity=".16"/>
+    <path d="M680 40H1200" opacity=".15"/>
+    <path d="M700 300H1200" opacity=".15"/>
+  </g>
 
-  <text x="48" y="120" fill="url(#nameGrad)" font-family="Arial,sans-serif" font-size="50" font-weight="900">ISHAN MALL</text>
+  <g fill="#A9EFFF">
+    <circle cx="820" cy="65" r="2"/>
+    <circle cx="1100" cy="95" r="2"/>
+    <circle cx="1020" cy="285" r="2"/>
+    <circle cx="745" cy="250" r="1.5"/>
+    <circle cx="1150" cy="220" r="1.5"/>
+  </g>
 
-  <text x="48" y="152" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="16">Android App Developer (Kotlin / Compose) • 3D WebGL Engineer • NASA &amp; ISRO Certified</text>
+  <g transform="translate(820 68)">
+    <circle cx="150" cy="112" r="104" stroke="url(#accent)" stroke-opacity=".4" stroke-width="1.5"/>
+    <circle cx="150" cy="112" r="78" stroke="#70DFFF" stroke-opacity=".3" stroke-dasharray="5 8"/>
+    <circle cx="150" cy="112" r="48" stroke="#A78BFA" stroke-opacity=".55"/>
+    <path d="M150 8C207 8 254 55 254 112" stroke="#00E5FF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M150 216C93 216 46 169 46 112" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="150" cy="112" r="31" fill="#0D1D36" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M139 96L120 112L139 128M161 96L180 112L161 128M155 88L145 136" stroke="#D7F7FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="150" cy="8" r="5" fill="#00E5FF"/>
+    <circle cx="254" cy="112" r="5" fill="#A78BFA"/>
+    <circle cx="150" cy="216" r="5" fill="#00E5FF"/>
+    <circle cx="46" cy="112" r="5" fill="#A78BFA"/>
+  </g>
 
-  <g font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0" text-anchor="middle">
-    <rect x="48" y="182" width="160" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.2"/>
-    <text x="128" y="202">5+ Play Store Apps</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="76" y="75" fill="#8FEAFF" font-size="14" font-weight="700" letter-spacing="4">DEVELOPER • CREATOR • BUILDER</text>
+    <text x="72" y="153" fill="url(#textGradient)" font-size="62" font-weight="800" letter-spacing="-2">ISHAN MALL</text>
+    <text x="76" y="193" fill="#C3D5EA" font-size="21" font-weight="500">Android App Developer &amp; Software Engineer</text>
+    <text x="76" y="229" fill="#91A8C5" font-size="15">Building meaningful apps, immersive websites and digital experiences.</text>
+  </g>
 
-    <rect x="220" y="182" width="170" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.2"/>
-    <text x="305" y="202">5+ 3D / Web Platforms</text>
+  <g transform="translate(76 267)" font-family="Segoe UI, Arial, sans-serif">
+    <rect width="144" height="35" rx="17.5" fill="#102A43" stroke="#1C789A"/>
+    <text x="72" y="22" fill="#9BEAFF" font-size="12" text-anchor="middle" font-weight="700">ANDROID • KOTLIN</text>
+    <rect x="156" width="118" height="35" rx="17.5" fill="#1B2444" stroke="#555DB0"/>
+    <text x="215" y="22" fill="#C7C9FF" font-size="12" text-anchor="middle" font-weight="700">REACT • WEB</text>
+    <rect x="286" width="125" height="35" rx="17.5" fill="#29203D" stroke="#8054A5"/>
+    <text x="348" y="22" fill="#E1C2FF" font-size="12" text-anchor="middle" font-weight="700">UI • UX • 3D</text>
+  </g>
 
-    <rect x="402" y="182" width="160" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.2"/>
-    <text x="482" y="202">Chrome Extensions</text>
+  <text x="1120" y="330" text-anchor="end" fill="#617C9B" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="2">BUILD • CREATE • INNOVATE</text>
 
-    <rect x="574" y="182" width="225" height="32" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.2"/>
-    <text x="686" y="202">30+ NASA / ISRO / Google Certs</text>
+  <g opacity=".5">
+    <path d="M0 345H1200" stroke="url(#accent)" stroke-width="2"/>
   </g>
 </svg>
